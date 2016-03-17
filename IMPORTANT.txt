@@ -1,0 +1,14 @@
+Note :
+
+This program aims at rectifying the position of a beam for an ultracold atom experiment.
+It is provided without any guaranty.
+
+It was designed for a system
+- controled by the Cicero experiment control
+- the beam position is monitored on a Lumenera camera
+- the beam position is controled using PicoMotors from NewFocus from the ethernet port
+
+at each start of an experimental run, Cicero sends an ethernet message to the program, which takes a picture, fits it and retroacts 3 times. 
+
+The lock was tested (see Asservissement_Position_Verdi.pdf) to be enough for our purposes. Please contact me for any question.
+
