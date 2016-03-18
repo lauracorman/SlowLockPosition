@@ -1,3 +1,5 @@
+Copyright 2015,2016 Laura Corman
+
 Note :
 
 This program aims at rectifying the position of a beam for an ultracold atom experiment.
@@ -11,4 +13,18 @@ It was designed for a system
 at each start of an experimental run, Cicero sends an ethernet message to the program, which takes a picture, fits it and retroacts 3 times. 
 
 The lock was tested (see Asservissement_Position_Verdi.pdf) to be enough for our purposes. Please contact me for any question.
+
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
